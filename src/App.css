@@ -40,3 +40,22 @@
 .read-the-docs {
   color: #888;
 }
+
+
+
+.cm-line .cm-syl:nth-of-type(1) {
+  color: red;
+}
+
+.cm-line .cm-syl:nth-of-type(2) {
+  color: green;
+}
+
+.cm-line .cm-syl:nth-of-type(3) {
+  color: blue;
+}
+
+.cm-syl::after {
+  content: "'"; /* Replace with the Unicode of your desired icon */
+  font-size: 8pt;
+}
